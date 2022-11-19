@@ -11,6 +11,7 @@ export default function ToggleLightDark(): JSX.Element {
 			variant='ghost'
 			aria-label={'Theme toggle switch'}
 			role={'switch'}
+			mr={4}
 		/>
 	)
 }

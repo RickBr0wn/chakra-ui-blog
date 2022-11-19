@@ -1,12 +1,7 @@
 import type { NextPage } from 'next'
-import Welcome from '../components/Welcome'
 
 const Home: NextPage = () => {
-	return (
-		<main role='main'>
-			<Welcome />
-		</main>
-	)
+	return <main role='main'>App</main>
 }
 
 export default Home
